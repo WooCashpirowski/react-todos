@@ -18,6 +18,9 @@ export class App extends Component {
 
   handleChange = (e) => {
     console.log("handle change");
+    this.setState({
+      item: e.target.value,
+    });
   };
 
   handleSubmit = (e) => {
