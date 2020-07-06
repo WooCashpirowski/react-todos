@@ -14,7 +14,7 @@ export default class TodoInput extends Component {
             </div>
             <input
               type="text"
-              className="form-control text-capitalize"
+              className="form-control"
               placeholder="add todo"
               value={item}
               onChange={handleChange}
